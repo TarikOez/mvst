@@ -4,6 +4,7 @@ import SingleRepo from "./SingleRepo/SingleRepo";
 const Repos = () => {
   return (
     // not dynamic yet. static for design purpose
+    // .map over prop repo array
     <>
       <SingleRepo
         link="react-native-esptouch2"
