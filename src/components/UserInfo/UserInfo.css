@@ -1,0 +1,78 @@
+.user-container {
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  color: #24292e;
+}
+
+#user-picture {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.full-name {
+  font-size: 26px;
+  line-height: 1.25;
+  margin-top: 10px;
+}
+
+.user-name {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  color: #586069;
+}
+
+.user-bio {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.buttons-user {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.btn-follow {
+  width: 70%;
+}
+
+.btn-more {
+  width: 25%;
+
+}
+
+.follower-info {
+  display: flex;
+  margin-top: 15px;
+  color: #587069;
+}
+
+.amount {
+  font-weight: 600;
+  color: #24292e;
+}
+
+.pos {
+  padding-right: 5px;
+}
+
+.posl {
+  padding-left: 5px;
+}
+
+.room {
+  margin-bottom: 5px;
+}
+
+.user-contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  color: inherit;
+}

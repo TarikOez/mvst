@@ -1,0 +1,34 @@
+.navigation {
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.nav-link {
+  padding: 15px 20px;
+}
+
+#repos {
+  font-weight: 600;
+  border-bottom: 2px solid #f9826c;
+}
+
+.nav-icon {
+    margin: 0 4px 2px 0;
+    vertical-align: middle;
+}
+
+.counter {
+    margin-left: 8px;
+    min-width: 20px;
+    padding: 0 6px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    background-color: rgba(209, 213, 218, 0.5);
+    border: 1px solid transparent;
+    border-radius: 2em;
+
+}
